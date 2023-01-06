@@ -193,6 +193,47 @@ input[type="number"]::-webkit-inner-spin-button {
     margin-top: 10px;
 }
 
+/*  *Contribute Section CSS* */
 
 
+.contribute-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.contribute-article{
+    width: 460px;
+    height: 374px;
+}
+
+.contribute-article h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.contribute-article article{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #707070;
+    line-height: 28px;
+    margin: 25px 0;
+}
+
+.contribute-img{
+    width: 460px;
+    height: 477px;
+
+}
+
+.contribute-img img{
+    width: 100%;
+    height: 477px;
+    object-fit: cover;
+    border-radius: 5px;
+}
 
