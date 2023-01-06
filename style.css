@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Manrope&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Manrope&family=Poppins:wght@400;600;700&display=swap');
 
 /* *Custom CSS* */
 
@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .primary-btn {
@@ -31,7 +32,7 @@
 section {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 130px 180px;
+  padding: 130px 180px 0;
 }
 
 .section-heading {
@@ -153,3 +154,45 @@ input[type="number"]::-webkit-inner-spin-button {
   font-size: 18px;
   line-height: 28px;
 }
+
+
+/* *Donate Plan CSS* */
+
+.donate-plan-container{
+    display: flex;
+    
+    margin-top: 50px;
+}
+
+.donate-plan-item{
+    width: 360px;
+    height: 352px;
+    padding: 22px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.donate-plan-item img{
+    width: 58px;
+    height: 49px;
+    
+    margin-top: 35px;
+}
+
+.donate-plan-item h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #121212;
+    margin-top: 10px;
+}
+
+.donate-plan-item article{
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+    margin-top: 10px;
+}
+
+
+
+
