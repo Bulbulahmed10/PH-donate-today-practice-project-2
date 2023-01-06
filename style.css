@@ -1,65 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Manrope&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Manrope&family=Poppins&display=swap");
 
+/* *Custom CSS* */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.primary-btn{
-    background-color: #f74545;
-    color: #ffffff;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    padding: 16px 12px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    text-transform: capitalize;
-    cursor: pointer;
-    transition: 0.3s;
-    letter-spacing: 1px;
+.primary-btn {
+  background-color: #f74545;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px 12px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 1px;
 }
 
-.primary-btn:hover{
-    background-color: #fc0808;
+.primary-btn:hover {
+  background-color: #fc0808;
+}
+
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 130px 180px;
+}
+
+.section-heading {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  color: #121212;
+}
+
+.section-desc {
+  text-align: center;
+  width: 690px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: #707070;
+  font-size: 18px;
 }
 
 /* *Header CSS* */
 
-header{
-    background-image: url(./images/donation-images/donation5.jpg);
-    width: 100%;
-    height: 630px;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    object-fit: cover;
-    margin: 0 auto;
-    z-index: -1;
+header {
+  background-image: url(./images/donation-images/donation5.jpg);
+  width: 100%;
+  height: 630px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  object-fit: cover;
+  margin: 0 auto;
+  z-index: -1;
 }
 
-header div{
-    padding: 175px 307px;
-    text-align: center;
-    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
-    
+header div {
+  padding: 175px 307px;
+  text-align: center;
+  background-image: linear-gradient(
+    360deg,
+    #121212 0%,
+    rgba(18, 18, 18, 0) 100%
+  );
 }
 
-header div h1{
-    font-family: 'Inter', sans-serif;
-    text-transform: capitalize;
-    font-weight: 700;
-    font-size: 55px;
-    color: #ffffff;
+header div h1 {
+  font-family: "Inter", sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 55px;
+  color: #ffffff;
 }
 
-header div p{
-    color: #ffffffcc;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    margin-top: 20px;
-    margin-bottom: 25px;
+header div p {
+  color: #ffffffcc;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+/* *Donate Section* */
+
+.donate-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.donate-section div {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.donate-section div span {
+  background-color: #fafafa;
+  padding: 40px 25px;
+  margin-right: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  border-radius: 5px;
+  color: #707070;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+
+.donate-section div span:hover {
+  border: 2px solid #fc0808;
+  background-color: #ffeeee;
+  color: #fc0808;
+}
+
+.donate-section input {
+  margin-top: 90px;
+  border: none;
+  border-bottom: 1px solid #dadada;
+  width: 765px;
+  outline: none;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #4f4e4e;
+}
+
+.donate-section input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.donate-section input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #b3b3b3;
+  font-size: 18px;
+  line-height: 28px;
 }
