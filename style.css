@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Manrope&family=Poppins:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Lobster&family=Manrope&family=Poppins:wght@400;600;700&display=swap");
 
 /* *Custom CSS* */
 
@@ -155,125 +155,166 @@ input[type="number"]::-webkit-inner-spin-button {
   line-height: 28px;
 }
 
-
 /* *Donate Plan CSS* */
 
-.donate-plan-container{
-    display: flex;
-    
-    margin-top: 50px;
+.donate-plan-container {
+  display: flex;
+
+  margin-top: 50px;
 }
 
-.donate-plan-item{
-    width: 360px;
-    height: 352px;
-    padding: 22px;
-    border-radius: 5px;
-    margin-right: 20px;
+.donate-plan-item {
+  width: 360px;
+  height: 352px;
+  padding: 22px;
+  border-radius: 5px;
+  margin-right: 20px;
 }
 
-.donate-plan-item img{
-    width: 58px;
-    height: 49px;
-    
-    margin-top: 35px;
+.donate-plan-item img {
+  width: 58px;
+  height: 49px;
+
+  margin-top: 35px;
 }
 
-.donate-plan-item h4{
-    font-size: 22px;
-    font-weight: 600;
-    color: #121212;
-    margin-top: 10px;
+.donate-plan-item h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #121212;
+  margin-top: 10px;
 }
 
-.donate-plan-item article{
-    font-size: 16px;
-    font-weight: 400;
-    color: #707070;
-    margin-top: 10px;
+.donate-plan-item article {
+  font-size: 16px;
+  font-weight: 400;
+  color: #707070;
+  margin-top: 10px;
 }
 
 /*  *Contribute Section CSS* */
 
-
-.contribute-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-bottom: 50px;
+.contribute-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
 }
 
-.contribute-article{
-    width: 460px;
-    height: 374px;
+.contribute-article {
+  width: 460px;
+  height: 374px;
 }
 
-.contribute-article h4{
-    font-family: 'Inter', sans-serif;
-    font-size: 40px;
-    line-height: 50px;
-    font-weight: 700;
-    color: #121212;
+.contribute-article h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  color: #121212;
 }
 
-.contribute-article article{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    color: #707070;
-    line-height: 28px;
-    margin: 25px 0;
+.contribute-article article {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #707070;
+  line-height: 28px;
+  margin: 25px 0;
 }
 
-.contribute-img{
-    width: 460px;
-    height: 477px;
-
+.contribute-img {
+  width: 460px;
+  height: 477px;
 }
 
-.contribute-img img{
-    width: 100%;
-    height: 477px;
-    object-fit: cover;
-    border-radius: 5px;
+.contribute-img img {
+  width: 100%;
+  height: 477px;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 /* *Get My Updates CSS* */
 
-.get-update-section .input-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #FFF4D6;
-    width: 800px;
-    margin: 50px auto 200px;
-    padding: 70px 0;
+.get-update-section .input-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff4d6;
+  width: 800px;
+  margin: 50px auto 200px;
+  padding: 70px 0;
 }
 
-.input-div input{
-    width: 400px;
-    background-color: #d9d9d9;
-    border: none;
-    outline: none;
-    padding: 10px ;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+.input-div input {
+  width: 400px;
+  background-color: #d9d9d9;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
-.input-div button{
-    margin-left: -80px;
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    background-color: #fc0808;
-    color: #fff;
-    letter-spacing: 1px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: .3s;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+.input-div button {
+  margin-left: -80px;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color: #fc0808;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-.input-div button:hover{
-    background-color: #f15757;
+.input-div button:hover {
+  background-color: #f15757;
+}
+
+/* *Footer Section CSS* */
+
+footer {
+  background-color: #0b0d17;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+footer span:nth-child(1) {
+  font-family: "Lobster", cursive;
+  color: #ff5959;
+  font-size: 35px;
+  letter-spacing: 0.5px;
+}
+
+footer span:nth-child(2) {
+  color: #d9dbe1;
+  font-size: 14px;
+  font-family: "Manrope", sans-serif;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+/* *Scrollbar-edit* */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #eb8f8f;
 }
